@@ -48,9 +48,9 @@ module.exports = {
             template: 'index.html',
             favicon: 'images/favicon.ico',
             minify: {
-                minimize: true,
-                removeComments: true,
-                collapseWhitespace: true
+                minimize: false,
+                removeComments: false,
+                collapseWhitespace: false
             },
             inject: "body",
             hash: true,

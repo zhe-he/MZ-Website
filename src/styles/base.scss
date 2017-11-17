@@ -1,13 +1,11 @@
-$yellow: #e09504;
-$lightyellow: #fdd8a6;
-$blue: #7560f9;
-$origin: #ff4f1a;
+$mwidth: 84.2%;
+$fbg: #333333;
+$fbg2: #3d3d3d;
 
-@mixin bg($img,$x:100%,$y:100%){
-	background-repeat: no-repeat;
-	background-image: url('../../images/#{$img}');
-	background-size: $x $y;
-}
+$color_blue: #475072;  
+$color_grey: #8f8f8f;
+$color_orange: #ff6142;
+$color_base: #282828;
 
 @mixin eps{
 	white-space: nowrap;
