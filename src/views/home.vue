@@ -22,92 +22,94 @@
                 </li>
             </ul>
         </div>
+        <div class="surf">
+            <h2>火车上网简单高效</h2>
+            <p>····················</p>
+            <ul>
+                <li>
+                    <i></i>
+                    <p>免费</p>
+                    <p>火车上免费试用无限Wi-Fi</p>
+                </li>
+                <li>
+                    <i></i>
+                    <p>体验流畅</p>
+                    <p>连接Wi-Fi到关注一次性完成</p>
+                </li>
+                <li>
+                    <i></i>
+                    <p>闭环</p>
+                    <p>车上连接，车上使用</p>
+                </li>
+            </ul>
+            <img src="images/static/step.jpg" alt="" />
+        </div>
+        <div class="advantage">
+            <h2>场景特点优势</h2>
+            <p>····················</p>
+            <ul>
+                <li v-for="item in advantage">
+                    <img :src="item.img" alt="" />
+                    <div><h3>{{item.p}}</h3></div>
+                </li>
+            </ul>
+        </div>
+        <div class="group">
+            <h2>产品受众群体精准</h2>
+            <p>····················</p>
+            <ul>
+                <li v-for="item in group">
+                    <img :src="item.img" alt="" />
+                    <h3>{{item.h3}}</h3>
+                    <div>
+                        <h3>{{item.h3}}</h3>
+                        <p>{{item.p}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="cooperation">
+            <h2>多元合作方式</h2>
+            <p>····················</p>
+            <ul>
+                <li v-for="item in cooperation">
+                    <img :src="item.img" alt="">
+                    <h3>{{item.h3}}</h3>
+                    <p v-html="item.p"></p>
+                </li>
+            </ul>
+        </div>
+        <div class="connect">
+            <h2>合作客户</h2>
+            <p>····················</p>
+
+            <aside v-for="item in connect">
+                <h4>{{item.title}}</h4>
+                <ul>
+                    <li v-for="list in item.list">
+                        <a :href="list.link"></a>
+                        <img :src="list.img" alt="">
+                    </li>
+                </ul>
+            </aside>
+        </div>
     </div>
 </template>
 
 <script type="text/javascript">
+    import { advantage,group,cooperation,connect } from "../data/home";
     export default {
         data(){
-            return {}
+            return {
+                advantage,
+                group,
+                cooperation,
+                connect
+            }
         }
     }
 </script>
 
 <style scoped lang="scss">
-    @import "../styles/base";
-    .banner{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        height: 629px;
-        background: url(../../images/banner1.jpg) no-repeat center center;
-        > p{
-            color: #fff;
-            width: 100%;
-            text-align: center;
-            &:nth-child(1){
-                font-size: 110px;
-            }
-            &:nth-child(2){
-                font-size: 80px;
-            }
-        }
-    }
-    .about{
-        height: 682px;
-        padding-top: 40px;
-        background: #f8f9fb url(../../images/map.jpg) no-repeat center center;
-        box-sizing: border-box;
-        h2{
-            color: $color_blue;
-            font-size: 30px;
-            line-height: 66px;
-            text-align: center;
-        }
-        > p{
-            font-size: 16px;
-            line-height: 18px;
-            text-align: center;
-            &,a{
-                color: $color_grey;
-            }
-            a{
-                margin: 0 25px;
-            }
-        }
-        ul{
-            margin-top: 112px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            li{
-                width: 160px;
-                margin-right: 184px;
-                &:last-child{
-                    margin-right: 0;
-                }
-                div{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    width: 152px;
-                    height: 152px;
-                    margin: 0 auto 45px;
-                    border-radius: 50%;
-                    background-color: $color_orange;
-                    text-align: center;
-                    color: #fff;
-                    font-size: 68px;
-                    line-height: 42px;
-                }
-                > p{
-                    color: $color_base;
-                    font-size: 18px;
-                    line-height: 18px;
-                    text-align: center;
-                }
-            }
-        }
-    }
+    @import "../styles/home";
 </style>

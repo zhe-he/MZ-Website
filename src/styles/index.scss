@@ -1,23 +1,27 @@
 html,body{
-	font-size: 16px;
-	line-height: 24px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 #app{
-	position: relative;
+    position: relative;
 }
 .flex{
-	display: flex;
-	box-align: center;
-	align-items: center;
-	.flex-child{
-		display: block;
-		flex: 1;
-	} 
+    display: flex;
+    box-align: center;
+    align-items: center;
+    .flex-child{
+        display: block;
+        flex: 1;
+    } 
 }
 
 .flex2{
-	@extend .flex;
-	box-orient: vertical;
-	flex-direction: column;
+    @extend .flex;
+    box-orient: vertical;
+    flex-direction: column;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
 }

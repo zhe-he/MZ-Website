@@ -1,0 +1,97 @@
+{
+    "version": "1.0.0",
+    "advantage": [
+        {
+            "img": "images/static/sofa.jpg",
+            "p": "上网率高"
+        },{
+            "img": "images/static/man.jpg",
+            "p": "客流量大"
+        },{
+            "img": "images/static/clock.jpg",
+            "p": "乘车时间长"
+        }
+    ],
+    "group": [
+        {
+            "img": "images/static/pic1.jpg",
+            "h3": "高收入群体",
+            "p": "较高的消费决策能力"
+        },{
+            "img": "images/static/pic2.jpg",
+            "h3": "年轻化",
+            "p": "学生、旅游、出差为主"
+        },{
+            "img": "images/static/pic3.jpg",
+            "h3": "消费升级",
+            "p": "品牌触及真是用户"
+        }
+    ],
+    "cooperation": [
+        {
+            "img": "images/static/fans.png",
+            "h3": "公众号涨粉",
+            "p": "定向匹配，精准锁定目标人群<br/>实现粉丝野蛮增长"
+        },{
+            "img": "images/static/phone.png",
+            "h3": "展示广告",
+            "p": "全屏、横屏，贴片广告形式多种选择<br/>触及海量用户"
+        },{
+            "img": "images/static/hand.png",
+            "h3": "深度合作",
+            "p": "定制合作，自由选择，满足各类推广<br/>成本可控"
+        }
+    ],
+    "connect":[
+        {
+            "title": "广告合作客户",
+            "list": [
+                {
+                    "img": "images/static/connect/qunaer.jpg",
+                    "link": "https://www.qunar.com/"
+                },
+                {
+                    "img": "images/static/connect/womai.jpg",
+                    "link": "http://www.womai.com/"
+                },
+                {
+                    "img": "images/static/connect/qumei.jpg",
+                    "link": "http://www.qumei.com/"
+                },
+                {
+                    "img": "images/static/connect/renrenche.png",
+                    "link": "https://www.renrenche.com"
+                },
+                {
+                    "img": "images/static/connect/58.png",
+                    "link": "http://58.com"
+                }
+            ]
+        },
+        {
+            "title": "微信合作客户",
+            "list": [
+                {
+                    "img": "images/static/connect/tietu.png",
+                    "link": "javascript:;"
+                },
+                {
+                    "img": "images/static/connect/lvyou.png",
+                    "link": "javascript:;"
+                },
+                {
+                    "img": "images/static/connect/shijue.png",
+                    "link": "javascript:;"
+                },
+                {
+                    "img": "images/static/connect/yuer.png",
+                    "link": "javascript:;"
+                },
+                {
+                    "img": "images/static/connect/yimeng.png",
+                    "link": "javascript:;"
+                }
+            ]
+        }
+    ]
+}

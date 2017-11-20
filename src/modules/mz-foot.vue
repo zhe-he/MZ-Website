@@ -30,6 +30,7 @@
             &:first-child{
                 width: $mwidth;
                 position: relative;
+                margin: 0 auto;
                 padding: 40px 0 28px;
                 > a{
                     position: absolute;

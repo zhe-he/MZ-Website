@@ -20,6 +20,7 @@
 <style lang="scss">
     @import "../styles/base";
     .mz-head{
+        z-index: 10;
         position: fixed;
         top: 0;
         left: 0;
@@ -30,6 +31,7 @@
             position: relative;
             display: flex;
             width: $mwidth;
+            margin: 0 auto;
             justify-content: flex-end;
             
             li{

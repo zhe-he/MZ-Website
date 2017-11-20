@@ -1,0 +1,273 @@
+@import "./base";
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 629px;
+    background: url(../../images/banner1.jpg) no-repeat center center;
+    > p{
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        &:nth-child(1){
+            font-size: 110px;
+        }
+        &:nth-child(2){
+            font-size: 80px;
+        }
+    }
+}
+.about,.surf,.advantage,.group,.cooperation,.connect{
+    padding-top: 40px;
+    h2{
+        color: $color_blue;
+        font-size: 30px;
+        line-height: 66px;
+        text-align: center;
+    }
+    > p{
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 2px;
+        &,a{
+            color: $color_grey;
+        }
+        a{
+            margin: 0 25px;
+            letter-spacing: 0px;
+        }
+    }
+}
+.about{
+    height: 682px;
+    background: #f8f9fb url(../../images/map.jpg) no-repeat center center;
+    box-sizing: border-box;
+    
+    ul{
+        margin-top: 112px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            width: 160px;
+            margin-right: 184px;
+            &:last-child{
+                margin-right: 0;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 152px;
+                height: 152px;
+                margin: 0 auto 45px;
+                border-radius: 50%;
+                background-color: $color_orange;
+                text-align: center;
+                color: #fff;
+                font-size: 68px;
+                line-height: 42px;
+            }
+            > p{
+                color: $color_base;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+            }
+        }
+    }
+}
+.surf{
+    $bwidth: 1453px;
+    ul{
+        display: flex;
+        margin: 28px auto 56px;
+        justify-content: space-between;
+        width: $mwidth;
+        max-width: $bwidth;
+        align-items: center;
+        li{
+            position: relative;
+            // margin-right: 60px;
+            width: 440px;
+            height: 96px;
+            padding: 15px 0 0 146px;
+            border: 2px solid $line_grey;
+            border-radius: 8px;
+            box-sizing: border-box;
+            i{
+                position: absolute;
+                top: 15px;
+                left: 61px;
+                width: 66px;
+                height: 66px;
+                border-radius: 50%;
+                background-color: $color_blue;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+            p{
+                font-size: 18px;
+                line-height: 33px;
+                color: $color_black;
+                @include eps;
+            }
+        }
+        $icons: "icon_wifi.png" "icon_rocket.png" "icon_circle.png";
+        @for $i from 1 to 4{
+            li:nth-child(#{$i}) i{
+                background-image: url("../../images/#{nth($icons,$i)}");
+            }
+        }
+    }
+    > img{
+        display: block;
+        width: $mwidth;
+        max-width: $bwidth;
+        margin: 0 auto 45px;
+    }
+}
+.advantage,.group{
+    ul{
+        display: flex;
+        margin: 90px auto 0;
+        justify-content: space-between;
+        width: $mwidth;
+        li{
+            position: relative;
+            img{
+                display: block;
+            }
+            > div{
+                display: flex;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                color: #fff;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                @include eps;
+            }
+            h3{
+                font-size: 36px;
+                text-align: center;
+                color: #fff;
+            }
+        }
+    }
+}
+.advantage{
+    box-sizing: border-box;
+    height: 680px;
+    background: url(../../images/advantage.jpg) no-repeat center center;
+    h2, > p{
+        color: #fff;
+    }
+}
+.group{
+    margin-bottom: 105px;
+    ul li{
+        border: 2px solid $line-light;
+        overflow: hidden;
+        > div{
+            flex-direction: column;
+            transform: translate3d(0,100%,0);
+            transition: transform 0.6s;
+        }
+        p{
+            margin-top: 7px;
+            font-size: 30px;
+        }
+        > h3{
+            position: absolute;
+            left: 0;
+            bottom: 45px;
+            width: 100%;
+        }
+        $bgcolor: rgba(92,172,240,0.95) rgba(93,210,151,0.95) rgba(240,92,92,0.95);
+        @for $i from 1 to 4{
+            &:nth-child(#{$i}) > div{
+                background-color: nth($bgcolor,$i);
+            }
+        }
+        &:hover{
+            > div{
+                transform: translate3d(0,0,0);
+            }
+            > h3{
+                display: none;
+            }
+        }
+
+    }
+}
+.cooperation{
+    background-color: #f6f8fa;
+    padding-bottom: 120px;
+    ul{
+        display: flex;
+        margin: 90px auto 0;
+        background-color: #fff;
+        width: $mwidth;
+        li{
+            flex: 1;
+            margin-right: 10px;
+            padding: 60px 0 33px;;
+            text-align: center;
+            color: $color_black;
+            img{
+                display: block;
+                margin: 0 auto 54px;
+            }
+            h3{
+                font-size: 28px;
+                margin-bottom: 19px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+.connect{
+    margin-bottom: 30px;
+    h4{
+        padding: 30px 0 15px;
+        font-size: 18px;
+        text-align: center;
+        color: $color_black;
+    }
+    ul{
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        width: $mwidth;
+        justify-content: space-between;
+        li{
+            position: relative;
+            display: flex;
+            flex: 1;
+            height: 152px;
+            margin-right: 20px;
+            border: 2px solid $line_grey2;
+            justify-content: center;
+            align-items: center;
+            &:last-child{
+                margin-right: 0px;
+            }
+            > a{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+}
