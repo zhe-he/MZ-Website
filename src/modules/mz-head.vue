@@ -1,12 +1,14 @@
 <template>
-    <nav class="mz-head">
-        <ul>
-            <router-link tag="li" to="/"><img src="/images/static/logo.png" alt="" /></router-link>
-            <router-link tag="li" exact to="/">首页</router-link>
-            <router-link tag="li" to="/connect">商务合作</router-link>
-            <router-link tag="li" to="/about">关于我们</router-link>
-        </ul>
-    </nav>
+    <header class="mz-head-warp">
+        <nav class="mz-head">
+            <ul>
+                <router-link tag="li" to="/"><img src="/images/static/logo.png" alt="" /></router-link>
+                <router-link tag="li" exact to="/">首页</router-link>
+                <router-link tag="li" to="/connect">商务合作</router-link>
+                <router-link tag="li" to="/about">关于我们</router-link>
+            </ul>
+        </nav>
+    </header>
 </template>
 
 <script type="text/javascript">
@@ -54,6 +56,16 @@
                 &:last-child{
                     margin-right: 0;
                 }
+            }
+        }
+    }
+    .mz-head-warp{
+        height: 90px;
+        border-bottom: 1px solid $line_light2;
+        ul li{
+            color: $fbg;
+            &.router-link-exact-active{
+                color: $color_orange2;
             }
         }
     }

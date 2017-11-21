@@ -9,10 +9,13 @@ const DIST = 'dist';
 var srcVue = 'node_modules/vue/dist/vue.js';
 var srcVuex = 'node_modules/vuex/dist/vuex.js';
 var srcVueRouter = 'node_modules/vue-router/dist/vue-router.js';
+var srcEcharts = 'node_modules/echarts/dist/echarts.js';
 if (process.env.NODE_ENV === 'production') {
     srcVue = srcVue.replace('vue.js','vue.min.js');
     srcVuex = srcVuex.replace('vuex.js','vuex.min.js');
     srcVueRouter = srcVueRouter.replace('vue-router.js','vue-router.min.js');
+    // common.min
+    srcEcharts = echarts.replace('echarts.js','echarts.min.js');
 }
 
 const cssLoader = [
@@ -41,7 +44,8 @@ module.exports = {
             {from: 'images/static/**/*'},
             {from: srcVue, to: 'js/vue.js'},
             {from: srcVuex, to: 'js/vuex.js'},
-            {from: srcVueRouter, to: 'js/vue-router.js'}
+            {from: srcVueRouter, to: 'js/vue-router.js'},
+            {from: srcEcharts, to: 'js/echarts.js'}
         ]),
         new HtmlWebpackPlugin({
             filename: 'index.html',
@@ -141,7 +145,8 @@ module.exports = {
     externals: {
         "vue": "Vue",
         "vuex": "Vuex",
-        "vue-router": "VueRouter"
+        "vue-router": "VueRouter",
+        "echarts": "echarts"
     },
     // 其他配置
     resolve: {

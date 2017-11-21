@@ -20,9 +20,9 @@
         "es6": true
     },
     "globals": {
-        "BMap": true
+        "BMap": true,
+        "echarts": true
     },
     "plugins": [
-        "vue"
-    ]
+        "vue"    ]
 }
