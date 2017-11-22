@@ -1,11 +1,10 @@
 <template>
     <div>
-        <mz-head></mz-head>
+        <router-view name="head"></router-view>
         <keep-alive v-if="$route.meta.keepAlive">
             <router-view v-if="$route.meta.keepAlive"></router-view>
         </keep-alive>
         <router-view v-if="!$route.meta.keepAlive"></router-view>
-        <mz-foot></mz-foot>
     </div>
 </template>
 

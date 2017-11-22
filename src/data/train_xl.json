@@ -1,0 +1,930 @@
+[
+    {
+        "id": 1,
+        "startStation": "济南",
+        "endStation": "乌鲁木齐南",
+        "startCity": "济南",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 91
+    },
+    {
+        "id": 2,
+        "startStation": "汉口",
+        "endStation": "乌鲁木齐南",
+        "startCity": "武汉",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 79
+    },
+    {
+        "id": 3,
+        "startStation": "烟台",
+        "endStation": "昆明",
+        "startCity": "烟台",
+        "endCity": "昆明",
+        "deviceSum": 55
+    },
+    {
+        "id": 4,
+        "startStation": "北京西",
+        "endStation": "乌鲁木齐南",
+        "startCity": "北京",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 53
+    },
+    {
+        "id": 5,
+        "startStation": "青岛",
+        "endStation": "成都",
+        "startCity": "青岛",
+        "endCity": "成都",
+        "deviceSum": 51
+    },
+    {
+        "id": 6,
+        "startStation": "北京",
+        "endStation": "乌鲁木齐南",
+        "startCity": "北京",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 49
+    },
+    {
+        "id": 7,
+        "startStation": "上海",
+        "endStation": "西宁",
+        "startCity": "上海",
+        "endCity": "西宁",
+        "deviceSum": 49
+    },
+    {
+        "id": 8,
+        "startStation": "上海",
+        "endStation": "伊宁",
+        "startCity": "上海",
+        "endCity": "伊宁",
+        "deviceSum": 48
+    },
+    {
+        "id": 9,
+        "startStation": "重庆北",
+        "endStation": "乌鲁木齐南",
+        "startCity": "重庆",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 47
+    },
+    {
+        "id": 10,
+        "startStation": "烟台",
+        "endStation": "北京",
+        "startCity": "烟台",
+        "endCity": "北京",
+        "deviceSum": 45
+    },
+    {
+        "id": 11,
+        "startStation": "青岛",
+        "endStation": "广州",
+        "startCity": "青岛",
+        "endCity": "广州",
+        "deviceSum": 45
+    },
+    {
+        "id": 12,
+        "startStation": "徐州",
+        "endStation": "金华西",
+        "startCity": "徐州",
+        "endCity": "金华",
+        "deviceSum": 45
+    },
+    {
+        "id": 13,
+        "startStation": "青岛",
+        "endStation": "南宁",
+        "startCity": "青岛",
+        "endCity": "南宁",
+        "deviceSum": 43
+    },
+    {
+        "id": 14,
+        "startStation": "广州",
+        "endStation": "乌鲁木齐南",
+        "startCity": "广州",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 43
+    },
+    {
+        "id": 15,
+        "startStation": "福州",
+        "endStation": "乌鲁木齐南",
+        "startCity": "福州",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 42
+    },
+    {
+        "id": 16,
+        "startStation": "济南",
+        "endStation": "日照",
+        "startCity": "济南",
+        "endCity": "日照",
+        "deviceSum": 42
+    },
+    {
+        "id": 17,
+        "startStation": "上海",
+        "endStation": "乌鲁木齐南",
+        "startCity": "上海",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 41
+    },
+    {
+        "id": 18,
+        "startStation": "徐州",
+        "endStation": "江山",
+        "startCity": "徐州",
+        "endCity": "江山",
+        "deviceSum": 40
+    },
+    {
+        "id": 19,
+        "startStation": "青岛",
+        "endStation": "西宁",
+        "startCity": "青岛",
+        "endCity": "西宁",
+        "deviceSum": 38
+    },
+    {
+        "id": 20,
+        "startStation": "东莞东",
+        "endStation": "齐齐哈尔",
+        "startCity": "东莞",
+        "endCity": "齐齐哈尔",
+        "deviceSum": 38
+    },
+    {
+        "id": 21,
+        "startStation": "上海",
+        "endStation": "北京",
+        "startCity": "上海",
+        "endCity": "北京",
+        "deviceSum": 37
+    },
+    {
+        "id": 22,
+        "startStation": "济南",
+        "endStation": "深圳东",
+        "startCity": "济南",
+        "endCity": "深圳",
+        "deviceSum": 36
+    },
+    {
+        "id": 23,
+        "startStation": "上海",
+        "endStation": "连云港",
+        "startCity": "上海",
+        "endCity": "连云港",
+        "deviceSum": 36
+    },
+    {
+        "id": 24,
+        "startStation": "郑州",
+        "endStation": "北京西",
+        "startCity": "郑州",
+        "endCity": "北京",
+        "deviceSum": 36
+    },
+    {
+        "id": 25,
+        "startStation": "青岛",
+        "endStation": "银川",
+        "startCity": "青岛",
+        "endCity": "银川",
+        "deviceSum": 36
+    },
+    {
+        "id": 26,
+        "startStation": "杭州",
+        "endStation": "成都东",
+        "startCity": "杭州",
+        "endCity": "成都",
+        "deviceSum": 36
+    },
+    {
+        "id": 27,
+        "startStation": "上海南",
+        "endStation": "韶关东/襄阳",
+        "startCity": "上海",
+        "endCity": "襄阳",
+        "deviceSum": 35
+    },
+    {
+        "id": 28,
+        "startStation": "杭州",
+        "endStation": "乌鲁木齐南",
+        "startCity": "杭州",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 35
+    },
+    {
+        "id": 29,
+        "startStation": "奎屯",
+        "endStation": "西安",
+        "startCity": "奎屯",
+        "endCity": "西安",
+        "deviceSum": 34
+    },
+    {
+        "id": 30,
+        "startStation": "哈尔滨",
+        "endStation": "重庆",
+        "startCity": "哈尔滨",
+        "endCity": "重庆",
+        "deviceSum": 34
+    },
+    {
+        "id": 31,
+        "startStation": "上海",
+        "endStation": "拉萨",
+        "startCity": "上海",
+        "endCity": "拉萨",
+        "deviceSum": 34
+    },
+    {
+        "id": 32,
+        "startStation": "成都",
+        "endStation": "乌鲁木齐南",
+        "startCity": "成都",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 34
+    },
+    {
+        "id": 33,
+        "startStation": "徐州",
+        "endStation": "广州",
+        "startCity": "徐州",
+        "endCity": "广州",
+        "deviceSum": 34
+    },
+    {
+        "id": 34,
+        "startStation": "和田",
+        "endStation": "乌鲁木齐南",
+        "startCity": "和田",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 33
+    },
+    {
+        "id": 35,
+        "startStation": "阜阳",
+        "endStation": "上海",
+        "startCity": "阜阳",
+        "endCity": "上海",
+        "deviceSum": 33
+    },
+    {
+        "id": 36,
+        "startStation": "济南",
+        "endStation": "济宁",
+        "startCity": "济南",
+        "endCity": "济宁",
+        "deviceSum": 33
+    },
+    {
+        "id": 37,
+        "startStation": "徐州",
+        "endStation": "乌鲁木齐",
+        "startCity": "徐州",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 32
+    },
+    {
+        "id": 38,
+        "startStation": "佳木斯",
+        "endStation": "成都",
+        "startCity": "佳木斯",
+        "endCity": "成都",
+        "deviceSum": 31
+    },
+    {
+        "id": 39,
+        "startStation": "郑州",
+        "endStation": "上海",
+        "startCity": "郑州",
+        "endCity": "上海",
+        "deviceSum": 30
+    },
+    {
+        "id": 40,
+        "startStation": "济南",
+        "endStation": "重庆北",
+        "startCity": "济南",
+        "endCity": "重庆",
+        "deviceSum": 30
+    },
+    {
+        "id": 41,
+        "startStation": "徐州",
+        "endStation": "北京",
+        "startCity": "徐州",
+        "endCity": "北京",
+        "deviceSum": 30
+    },
+    {
+        "id": 42,
+        "startStation": "齐齐哈尔",
+        "endStation": "北京",
+        "startCity": "齐齐哈尔",
+        "endCity": "北京",
+        "deviceSum": 30
+    },
+    {
+        "id": 43,
+        "startStation": "大连",
+        "endStation": "齐齐哈尔",
+        "startCity": "大连",
+        "endCity": "齐齐哈尔",
+        "deviceSum": 30
+    },
+    {
+        "id": 44,
+        "startStation": "青岛",
+        "endStation": "西安",
+        "startCity": "青岛",
+        "endCity": "西安",
+        "deviceSum": 30
+    },
+    {
+        "id": 45,
+        "startStation": "徐州",
+        "endStation": "广州东",
+        "startCity": "徐州",
+        "endCity": "广州",
+        "deviceSum": 29
+    },
+    {
+        "id": 46,
+        "startStation": "南京",
+        "endStation": "广州",
+        "startCity": "南京",
+        "endCity": "广州",
+        "deviceSum": 28
+    },
+    {
+        "id": 47,
+        "startStation": "济南",
+        "endStation": "长沙",
+        "startCity": "济南",
+        "endCity": "长沙",
+        "deviceSum": 28
+    },
+    {
+        "id": 48,
+        "startStation": "济南",
+        "endStation": "广州",
+        "startCity": "济南",
+        "endCity": "广州",
+        "deviceSum": 28
+    },
+    {
+        "id": 49,
+        "startStation": "合肥",
+        "endStation": "广州东",
+        "startCity": "合肥",
+        "endCity": "广州",
+        "deviceSum": 27
+    },
+    {
+        "id": 50,
+        "startStation": "上海",
+        "endStation": "黄山",
+        "startCity": "上海",
+        "endCity": "黄山",
+        "deviceSum": 27
+    },
+    {
+        "id": 51,
+        "startStation": "南通",
+        "endStation": "昆明",
+        "startCity": "南通",
+        "endCity": "昆明",
+        "deviceSum": 27
+    },
+    {
+        "id": 52,
+        "startStation": "郑州",
+        "endStation": "西宁",
+        "startCity": "郑州",
+        "endCity": "西宁",
+        "deviceSum": 27
+    },
+    {
+        "id": 53,
+        "startStation": "泰州",
+        "endStation": "深圳东",
+        "startCity": "泰州",
+        "endCity": "深圳",
+        "deviceSum": 27
+    },
+    {
+        "id": 54,
+        "startStation": "上海",
+        "endStation": "九龙",
+        "startCity": "上海",
+        "endCity": "九龙",
+        "deviceSum": 27
+    },
+    {
+        "id": 55,
+        "startStation": "合肥",
+        "endStation": "阜阳",
+        "startCity": "合肥",
+        "endCity": "阜阳",
+        "deviceSum": 26
+    },
+    {
+        "id": 56,
+        "startStation": "郑州",
+        "endStation": "广州",
+        "startCity": "郑州",
+        "endCity": "广州",
+        "deviceSum": 25
+    },
+    {
+        "id": 57,
+        "startStation": "合肥",
+        "endStation": "北京",
+        "startCity": "合肥",
+        "endCity": "北京",
+        "deviceSum": 25
+    },
+    {
+        "id": 58,
+        "startStation": "霍尔果斯",
+        "endStation": "伊宁",
+        "startCity": "霍尔果斯",
+        "endCity": "伊宁",
+        "deviceSum": 25
+    },
+    {
+        "id": 59,
+        "startStation": "杭州",
+        "endStation": "兰州",
+        "startCity": "杭州",
+        "endCity": "兰州",
+        "deviceSum": 24
+    },
+    {
+        "id": 60,
+        "startStation": "阿克苏",
+        "endStation": "宝鸡",
+        "startCity": "阿克苏",
+        "endCity": "宝鸡",
+        "deviceSum": 24
+    },
+    {
+        "id": 61,
+        "startStation": "合肥",
+        "endStation": "深圳西",
+        "startCity": "合肥",
+        "endCity": "深圳",
+        "deviceSum": 24
+    },
+    {
+        "id": 62,
+        "startStation": "杭州",
+        "endStation": "齐齐哈尔",
+        "startCity": "杭州",
+        "endCity": "齐齐哈尔",
+        "deviceSum": 24
+    },
+    {
+        "id": 63,
+        "startStation": "宁波",
+        "endStation": "广州",
+        "startCity": "宁波",
+        "endCity": "广州",
+        "deviceSum": 23
+    },
+    {
+        "id": 64,
+        "startStation": "合肥",
+        "endStation": "北京西",
+        "startCity": "合肥",
+        "endCity": "北京",
+        "deviceSum": 23
+    },
+    {
+        "id": 65,
+        "startStation": "青岛",
+        "endStation": "福州",
+        "startCity": "青岛",
+        "endCity": "福州",
+        "deviceSum": 23
+    },
+    {
+        "id": 66,
+        "startStation": "合肥",
+        "endStation": "昆明",
+        "startCity": "合肥",
+        "endCity": "昆明",
+        "deviceSum": 22
+    },
+    {
+        "id": 67,
+        "startStation": "郑州",
+        "endStation": "昆明",
+        "startCity": "郑州",
+        "endCity": "昆明",
+        "deviceSum": 22
+    },
+    {
+        "id": 68,
+        "startStation": "南通",
+        "endStation": "宜昌东",
+        "startCity": "南通",
+        "endCity": "宜昌",
+        "deviceSum": 20
+    },
+    {
+        "id": 69,
+        "startStation": "阜阳",
+        "endStation": "温州",
+        "startCity": "阜阳",
+        "endCity": "温州",
+        "deviceSum": 20
+    },
+    {
+        "id": 70,
+        "startStation": "合肥",
+        "endStation": "安庆",
+        "startCity": "合肥",
+        "endCity": "安庆",
+        "deviceSum": 20
+    },
+    {
+        "id": 71,
+        "startStation": "齐齐哈尔",
+        "endStation": "乌鲁木齐",
+        "startCity": "齐齐哈尔",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 19
+    },
+    {
+        "id": 72,
+        "startStation": "济南",
+        "endStation": "张家界",
+        "startCity": "济南",
+        "endCity": "张家界",
+        "deviceSum": 19
+    },
+    {
+        "id": 73,
+        "startStation": "南宁",
+        "endStation": "乌鲁木齐南",
+        "startCity": "南宁",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 19
+    },
+    {
+        "id": 74,
+        "startStation": "北屯",
+        "endStation": "乌鲁木齐南",
+        "startCity": "北屯",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 19
+    },
+    {
+        "id": 75,
+        "startStation": "烟台",
+        "endStation": "枣庄",
+        "startCity": "烟台",
+        "endCity": "枣庄",
+        "deviceSum": 18
+    },
+    {
+        "id": 76,
+        "startStation": "哈尔滨",
+        "endStation": "济南",
+        "startCity": "哈尔滨",
+        "endCity": "济南",
+        "deviceSum": 18
+    },
+    {
+        "id": 77,
+        "startStation": "佳木斯",
+        "endStation": "烟台",
+        "startCity": "佳木斯",
+        "endCity": "烟台",
+        "deviceSum": 18
+    },
+    {
+        "id": 78,
+        "startStation": "宁波",
+        "endStation": "西安",
+        "startCity": "宁波",
+        "endCity": "西安",
+        "deviceSum": 17
+    },
+    {
+        "id": 79,
+        "startStation": "烟台",
+        "endStation": "曹县",
+        "startCity": "烟台",
+        "endCity": "曹县",
+        "deviceSum": 17
+    },
+    {
+        "id": 80,
+        "startStation": "济南",
+        "endStation": "南通",
+        "startCity": "济南",
+        "endCity": "南通",
+        "deviceSum": 17
+    },
+    {
+        "id": 81,
+        "startStation": "宁波",
+        "endStation": "重庆",
+        "startCity": "宁波",
+        "endCity": "重庆",
+        "deviceSum": 17
+    },
+    {
+        "id": 82,
+        "startStation": "徐州",
+        "endStation": "南宁",
+        "startCity": "徐州",
+        "endCity": "南宁",
+        "deviceSum": 16
+    },
+    {
+        "id": 83,
+        "startStation": "杭州",
+        "endStation": "北京",
+        "startCity": "杭州",
+        "endCity": "北京",
+        "deviceSum": 16
+    },
+    {
+        "id": 84,
+        "startStation": "郑州",
+        "endStation": "宁波",
+        "startCity": "郑州",
+        "endCity": "宁波",
+        "deviceSum": 15
+    },
+    {
+        "id": 85,
+        "startStation": "扬州",
+        "endStation": "北京",
+        "startCity": "扬州",
+        "endCity": "北京",
+        "deviceSum": 14
+    },
+    {
+        "id": 86,
+        "startStation": "阜阳",
+        "endStation": "北京西",
+        "startCity": "阜阳",
+        "endCity": "北京",
+        "deviceSum": 14
+    },
+    {
+        "id": 87,
+        "startStation": "宁波",
+        "endStation": "亳州",
+        "startCity": "宁波",
+        "endCity": "亳州",
+        "deviceSum": 14
+    },
+    {
+        "id": 88,
+        "startStation": "聊城",
+        "endStation": "金华",
+        "startCity": "聊城",
+        "endCity": "金华",
+        "deviceSum": 14
+    },
+    {
+        "id": 89,
+        "startStation": "南京",
+        "endStation": "乌鲁木齐",
+        "startCity": "南京",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 13
+    },
+    {
+        "id": 90,
+        "startStation": "郑州",
+        "endStation": "成都",
+        "startCity": "郑州",
+        "endCity": "成都",
+        "deviceSum": 13
+    },
+    {
+        "id": 91,
+        "startStation": "济南",
+        "endStation": "宁波",
+        "startCity": "济南",
+        "endCity": "宁波",
+        "deviceSum": 13
+    },
+    {
+        "id": 92,
+        "startStation": "宁波",
+        "endStation": "阜阳",
+        "startCity": "宁波",
+        "endCity": "阜阳",
+        "deviceSum": 12
+    },
+    {
+        "id": 93,
+        "startStation": "库尔勒",
+        "endStation": "乌鲁木齐南",
+        "startCity": "库尔勒",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 11
+    },
+    {
+        "id": 94,
+        "startStation": "上海南",
+        "endStation": "重庆北",
+        "startCity": "上海",
+        "endCity": "重庆",
+        "deviceSum": 11
+    },
+    {
+        "id": 95,
+        "startStation": "丹东",
+        "endStation": "齐齐哈尔",
+        "startCity": "丹东",
+        "endCity": "齐齐哈尔",
+        "deviceSum": 11
+    },
+    {
+        "id": 96,
+        "startStation": "合肥",
+        "endStation": "淮北",
+        "startCity": "合肥",
+        "endCity": "淮北",
+        "deviceSum": 10
+    },
+    {
+        "id": 97,
+        "startStation": "南京",
+        "endStation": "保定",
+        "startCity": "南京",
+        "endCity": "保定",
+        "deviceSum": 10
+    },
+    {
+        "id": 98,
+        "startStation": "新乡",
+        "endStation": "北京",
+        "startCity": "新乡",
+        "endCity": "北京",
+        "deviceSum": 10
+    },
+    {
+        "id": 99,
+        "startStation": "新乡",
+        "endStation": "苏州",
+        "startCity": "新乡",
+        "endCity": "苏州",
+        "deviceSum": 8
+    },
+    {
+        "id": 100,
+        "startStation": "佳木斯",
+        "endStation": "大连",
+        "startCity": "佳木斯",
+        "endCity": "大连",
+        "deviceSum": 8
+    },
+    {
+        "id": 101,
+        "startStation": "南京",
+        "endStation": "北京",
+        "startCity": "南京",
+        "endCity": "北京",
+        "deviceSum": 8
+    },
+    {
+        "id": 102,
+        "startStation": "泰州",
+        "endStation": "哈尔滨",
+        "startCity": "泰州",
+        "endCity": "哈尔滨",
+        "deviceSum": 7
+    },
+    {
+        "id": 103,
+        "startStation": "阜阳",
+        "endStation": "芜湖",
+        "startCity": "阜阳",
+        "endCity": "芜湖",
+        "deviceSum": 7
+    },
+    {
+        "id": 104,
+        "startStation": "新乡",
+        "endStation": "日照",
+        "startCity": "新乡",
+        "endCity": "日照",
+        "deviceSum": 7
+    },
+    {
+        "id": 105,
+        "startStation": "南通",
+        "endStation": "北京",
+        "startCity": "南通",
+        "endCity": "北京",
+        "deviceSum": 7
+    },
+    {
+        "id": 106,
+        "startStation": "齐齐哈尔",
+        "endStation": "虎林",
+        "startCity": "齐齐哈尔",
+        "endCity": "虎林",
+        "deviceSum": 4
+    },
+    {
+        "id": 107,
+        "startStation": "奎屯",
+        "endStation": "乌鲁木齐南",
+        "startCity": "奎屯",
+        "endCity": "乌鲁木齐",
+        "deviceSum": 4
+    },
+    {
+        "id": 108,
+        "startStation": "济南",
+        "endStation": "东营",
+        "startCity": "济南",
+        "endCity": "东营",
+        "deviceSum": 3
+    },
+    {
+        "id": 109,
+        "startStation": "哈尔滨",
+        "endStation": "漠河",
+        "startCity": "哈尔滨",
+        "endCity": "漠河",
+        "deviceSum": 3
+    },
+    {
+        "id": 110,
+        "startStation": "杭州",
+        "endStation": "兰溪",
+        "startCity": "杭州",
+        "endCity": "兰溪",
+        "deviceSum": 3
+    },
+    {
+        "id": 111,
+        "startStation": "郑州",
+        "endStation": "杭州",
+        "startCity": "郑州",
+        "endCity": "杭州",
+        "deviceSum": 2
+    },
+    {
+        "id": 112,
+        "startStation": "青岛",
+        "endStation": "平度",
+        "startCity": "青岛",
+        "endCity": "平度",
+        "deviceSum": 2
+    },
+    {
+        "id": 113,
+        "startStation": "新乡",
+        "endStation": "重庆",
+        "startCity": "新乡",
+        "endCity": "重庆",
+        "deviceSum": 2
+    },
+    {
+        "id": 114,
+        "startStation": "洛阳",
+        "endStation": "福州",
+        "startCity": "洛阳",
+        "endCity": "福州",
+        "deviceSum": 2
+    },
+    {
+        "id": 115,
+        "startStation": "乌鲁木齐",
+        "endStation": "喀什",
+        "startCity": "乌鲁木齐",
+        "endCity": "喀什",
+        "deviceSum": 2
+    },
+    {
+        "id": 116,
+        "startStation": "乌鲁木齐西",
+        "endStation": "北屯",
+        "startCity": "乌鲁木齐",
+        "endCity": "北屯",
+        "deviceSum": 1
+    }
+]

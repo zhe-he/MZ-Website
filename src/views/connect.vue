@@ -1,23 +1,29 @@
 <template>
-    <div class="connect">
-        <div class="connect_l">
-            <div>
-                <h2>公众号商业推广</h2>
-                <address @click="panTo('gz')">广州市海珠区新港西路大江直街1号邦华—创社第2栋3楼</address>
-                <p>18617333013 林小姐</p>
-            </div>
-            <div>
-                <h2>商务合作推广</h2>
-                <address @click="panTo('gz')">广州市海珠区新港西路大江直街1号邦华—创社第2栋3楼</address>
-                <p>18617333013 林小姐</p>
-            </div>
-            <div>
-                <h2>美正网络科技有限公司</h2>
-                <address @click="panTo('bj')">北京市东城区东直门外大街46号天恒大厦A座15层</address>
-                <p>电话：010-84386868</p>
+    <div>
+        <mz-head></mz-head>
+        <div class="connect">
+            <div class="connect-main">
+                <div class="connect_l">
+                    <div>
+                        <h2>公众号商业推广</h2>
+                        <address @click="panTo('gz')">广州市海珠区新港西路大江直街1号邦华—创社第2栋3楼</address>
+                        <p>18617333013 林小姐</p>
+                    </div>
+                    <div>
+                        <h2>商务合作推广</h2>
+                        <address @click="panTo('gz')">广州市海珠区新港西路大江直街1号邦华—创社第2栋3楼</address>
+                        <p>18617333013 林小姐</p>
+                    </div>
+                    <div>
+                        <h2>美正网络科技有限公司</h2>
+                        <address @click="panTo('bj')">北京市东城区东直门外大街46号天恒大厦A座15层</address>
+                        <p>电话：010-84386868</p>
+                    </div>
+                </div>
+                <div class="connect_r" id="mz-map"></div>
             </div>
         </div>
-        <div class="connect_r" id="mz-map"></div>
+        <mz-foot></mz-foot>
     </div>
 </template>
 
@@ -58,6 +64,9 @@
 <style scoped lang="scss">
     @import "../styles/base";
     .connect{
+        background-color: $bbg;
+    }
+    .connect-main{
         display: flex;
         width: $mwidth;
         margin: 0 auto;

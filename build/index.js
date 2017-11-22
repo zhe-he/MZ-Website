@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') {
     srcVuex = srcVuex.replace('vuex.js','vuex.min.js');
     srcVueRouter = srcVueRouter.replace('vue-router.js','vue-router.min.js');
     // common.min
-    srcEcharts = echarts.replace('echarts.js','echarts.min.js');
+    srcEcharts = srcEcharts.replace('echarts.js','echarts.min.js');
 }
 
 const cssLoader = [
@@ -45,7 +45,8 @@ module.exports = {
             {from: srcVue, to: 'js/vue.js'},
             {from: srcVuex, to: 'js/vuex.js'},
             {from: srcVueRouter, to: 'js/vue-router.js'},
-            {from: srcEcharts, to: 'js/echarts.js'}
+            {from: srcEcharts, to: 'js/echarts.js'},
+            {from: 'build/publicServer.js', to: 'server.js'}
         ]),
         new HtmlWebpackPlugin({
             filename: 'index.html',

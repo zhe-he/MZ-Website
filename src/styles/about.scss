@@ -34,16 +34,19 @@
     padding-bottom: 68px;
     background-color: #fff;
 }
-.road{
+.road-map,.road-circle{
+    width: 66%;
+    margin: 0 auto;
+}
+.road-map{
     margin-top: -58px;
-    height: 1269px;
-
-    .circle{
-        width: 66%;
-        height: 520px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
+    height: 660px;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.road-circle{
+    height: 520px;
+    margin-bottom: 50px;
 }
 .more{
     height: 680px;

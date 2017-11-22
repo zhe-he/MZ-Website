@@ -46,6 +46,7 @@
                         font-size: 18px;
                         color: #fff;
                         margin-right: 54px;
+                        cursor: pointer;
                         &:last-child{
                             margin-right: 0;
                         }

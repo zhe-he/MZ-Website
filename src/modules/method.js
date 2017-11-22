@@ -5,7 +5,7 @@ const isMobile = 'ontouchstart' in window;
 const isWeixin = /MicroMessenger/i.test(navigator.userAgent);
 const orientation = 'onorientationchange' in window ? 'orientationchange' : 'resize';  //横竖屏
 const clone = (origin) => JSON.parse(JSON.stringify(origin));
-
+const unique = arr => [...new Set(arr)];
 
 export {
     isIos,
@@ -14,4 +14,5 @@ export {
     isWeixin,
     orientation,
     clone,
+    unique
 };

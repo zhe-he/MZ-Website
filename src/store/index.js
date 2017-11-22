@@ -7,7 +7,7 @@ const debug = process.env.NODE_ENV !== 'production';
 
 const store = new Vuex.Store({
     state: {
-        
+        head: 1
     },
     getters,
     actions,

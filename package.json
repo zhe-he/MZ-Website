@@ -9,7 +9,8 @@
     "build": "cross-env NODE_ENV=production webpack -p --config build/ --progress --colors",
     "dev": "cross-env NODE_ENV=development node build/server --4010",
     "pack": "node build/pack",
-    "clean": "node build/clean"
+    "clean": "node build/clean",
+    "test": "node dist/server"
   },
   "author": {
     "name": "zhe-he",

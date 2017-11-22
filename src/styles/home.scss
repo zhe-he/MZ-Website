@@ -52,6 +52,11 @@
         li{
             width: 160px;
             margin-right: 184px;
+            transition: 0.6s;
+            cursor: pointer;
+            &:hover{
+                transform: translate3d(0,-20%,0);
+            }
             &:last-child{
                 margin-right: 0;
             }
@@ -97,6 +102,13 @@
             border: 2px solid $line_grey;
             border-radius: 8px;
             box-sizing: border-box;
+            transition: 0.6s;
+            background-color: #fff;
+            cursor: pointer;
+            &:hover{
+                z-index: 2;
+                transform: scale(1.1)
+            }
             i{
                 position: absolute;
                 top: 15px;
@@ -107,6 +119,7 @@
                 background-color: $color_blue;
                 background-position: center center;
                 background-repeat: no-repeat;
+                
             }
             p{
                 font-size: 18px;
@@ -174,6 +187,7 @@
     ul li{
         border: 2px solid $line-light;
         overflow: hidden;
+        cursor: pointer;
         > div{
             flex-direction: column;
             transform: translate3d(0,100%,0);
