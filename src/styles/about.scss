@@ -85,7 +85,6 @@
     }
     @for $i from 1 to 8{
         &.animation > *:nth-child(#{$i}){
-            opacity: 1;
             animation: fadeInUp 0.6s #{$i*0.6}s ease both;
         }
     }
