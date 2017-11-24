@@ -1,7 +1,7 @@
 <template>
     <div>
         <mz-head></mz-head>
-        <div class="connect">
+        <div class="connect media">
             <div class="connect-main">
                 <div class="connect_l">
                     <div>
@@ -86,13 +86,14 @@
         address,p{
             font-size: 18px;
             color: $color_base;
-            line-height: 40px;
+            line-height: 1.7;
             padding-left: 26px;
         }
         address{
             background: url(../../images/point.png) no-repeat left center;
             font-style: normal;
             cursor: pointer;
+            margin-bottom: 5px;
         }
         p{
             background: url(../../images/tel.png) no-repeat left center;

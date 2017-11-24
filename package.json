@@ -10,7 +10,7 @@
     "dev": "cross-env NODE_ENV=development node build/server --4010",
     "pack": "node build/pack",
     "clean": "node build/clean",
-    "test": "node dist/server"
+    "test": "node build/publicServer"
   },
   "author": {
     "name": "zhe-he",

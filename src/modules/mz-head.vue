@@ -1,11 +1,11 @@
 <template>
-    <header :class="head==1?'':'mz-head-warp'">
+    <header :class="head==1?'media':'mz-head-warp media'">
         <nav v-fixed class="mz-head">
             <ul>
-                <router-link tag="li" to="/"></router-link>
-                <router-link tag="li" exact to="/">首页</router-link>
-                <router-link tag="li" to="/connect">商务合作</router-link>
-                <router-link tag="li" to="/about">关于我们</router-link>
+                <li @click="to('home')"></li>
+                <li @click="to('home')">首页</li>
+                <li @click="to('connect')">商务合作</li>
+                <li @click="to('about')">关于我们</li>
             </ul>
         </nav>
     </header>
@@ -33,6 +33,12 @@
                     },false);
                 }
             }
+        },
+        methods:{
+            to(name){
+                window.scrollTo(0,0);
+                this.$router.push({name});
+            }
         }
     }
 </script>
@@ -40,7 +46,7 @@
 <style lang="scss">
     @import "../styles/base";
     .mz-head-warp{
-        height: 90px;
+        height: 80px;
         border-bottom: 1px solid $line_light2;
         background-color: $bbg;
         .mz-head{
@@ -59,9 +65,9 @@
         left: 0;
         z-index: 10;
         width: 100%;
-        height: 90px;
+        height: 80px;
         border-bottom: 1px solid transparent;
-        transition: 0.6s;
+        transition: 1s;
         &.active{
             position: fixed;
             top: 0;
@@ -85,26 +91,26 @@
             
             li{
                 width: 122px;
-                height: 90px;
-                line-height: 90px;
+                height: 80px;
+                line-height: 80px;
                 margin-right: 60px;
                 text-align: center;
-                font-size: 20px;
+                font-size: 18px;
                 color: #fff;
                 cursor: pointer;
                 &:first-child{
                     position: absolute;
-                    top: 11px;
+                    top: 12px;
                     left: 46px;
-                    width: 143px;      
-                    height: 66px;
+                    width: 120px;      
+                    height: 55px;
                     background: url(../../images/static/logo.png) no-repeat;
                     background-size: 100% 100%;          
                 }
                 &:last-child{
                     margin-right: 0;
                 }
-                &.router-link-exact-active{
+                &:hover{
                     color: $color_orange2;
                 }
             }

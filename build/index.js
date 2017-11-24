@@ -45,8 +45,7 @@ module.exports = {
             {from: srcVue, to: 'js/vue.js'},
             {from: srcVuex, to: 'js/vuex.js'},
             {from: srcVueRouter, to: 'js/vue-router.js'},
-            {from: srcEcharts, to: 'js/echarts.js'},
-            {from: 'build/publicServer.js', to: 'server.js'}
+            {from: srcEcharts, to: 'js/echarts.js'}
         ]),
         new HtmlWebpackPlugin({
             filename: 'index.html',

@@ -10,6 +10,7 @@
 
 <style lang="scss">
     @import "./styles/reset";
+    @import "./styles/media";
     @import "./styles/index";
 </style>
 <script type="text/javascript">

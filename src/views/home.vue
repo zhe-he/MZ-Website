@@ -1,7 +1,7 @@
 <template>
     <div>
         <mz-head></mz-head>
-        <div>
+        <div class="home">
             <div class="banner">
                 <p>中国最大的</p>
                 <p>铁路客运出行娱乐平台</p>
@@ -15,11 +15,11 @@
                         <p>覆盖全国十大路局</p>
                     </li>
                     <li>
-                        <div><p>160</p><p>+</p></div>
+                        <div><p>160+</p></div>
                         <p>连接160+个城市</p>
                     </li>
                     <li>
-                        <div><p>1700</p><p>+</p></div>
+                        <div><p>1700+</p></div>
                         <p>超过1700+ 车次/日</p>
                     </li>
                 </ul>
@@ -30,18 +30,25 @@
                 <ul>
                     <li>
                         <i></i>
-                        <p>免费</p>
-                        <p>火车上免费试用无限Wi-Fi</p>
+                        <div>
+                            <p>免费</p>
+                            <p>火车上免费试用无限Wi-Fi</p>    
+                        </div>
                     </li>
                     <li>
                         <i></i>
-                        <p>体验流畅</p>
-                        <p>连接Wi-Fi到关注一次性完成</p>
+                        <div>
+                            <p>体验流畅</p>
+                            <p>连接Wi-Fi到关注一次性完成</p>
+                        </div>
+                        
                     </li>
                     <li>
                         <i></i>
-                        <p>闭环</p>
-                        <p>车上连接，车上使用</p>
+                        <div>
+                            <p>闭环</p>
+                            <p>车上连接，车上使用</p>
+                        </div>
                     </li>
                 </ul>
                 <img src="images/static/step.jpg" alt="" />

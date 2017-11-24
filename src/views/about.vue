@@ -1,7 +1,7 @@
 <template>
     <div>
         <mz-head></mz-head>
-        <div class="about">
+        <div class="about media">
             <div class="banner">
                 <div>
                     <h2>全国最大的互联网接入平台</h2>
@@ -75,16 +75,27 @@
                         data: ['美正','其他'],
                         orient: 'vertical'
                     },
-                    color: ['#fe7054','#e1edb2'],
+                    color: ['#fc6719','#fec500'],
                     series : [
                         {
+                            name: "覆盖率",
                             type: 'pie',
-                            radius : '65%',
-                            center: ['50%', '50%'],
                             selectedMode: 'single',
+                            radius : [0, '65%'],
+                            label: {
+                                normal: {
+                                    formatter: '{d}%',
+                                    position: 'inner'
+                                }
+                            },
+                            labelLine: {
+                                normal: {
+                                    show: false
+                                }
+                            },
                             data:[
                                 {value:65, name: '美正'},
-                                {value:35, name: '其他'}
+                                {value:35, name: '其他',selected: true}
                             ]
                         }
                     ]

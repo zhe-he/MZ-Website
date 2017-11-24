@@ -1,0 +1,259 @@
+@media screen and (max-width:1440px){
+    .home {
+        .banner{
+            p{
+                &:nth-child(1){
+                    font-size: 100px;
+                }
+                &:nth-child(2){
+                    font-size: 70px;
+                }
+            }
+        }
+        .about{
+            height: 600px;
+        }
+        .surf{
+            ul li{
+                width: 330px;
+            }
+        }
+        .advantage{
+            height: 600px;
+            ul li img{
+                width: 300px;
+            }
+        }
+        .group{
+            ul li img{
+                width: 380px;
+            }
+        }
+        .cooperation ul li{
+            h3{
+                font-size: 26px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    .connect.media{
+        .connect_l{
+            h2{
+                font-size: 28px;
+            }
+            address,p{
+                font-size: 16px;
+            }
+        }
+    }
+    .about.media{
+        .banner{
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 24px;
+            }
+            h2,p{
+                width: 672px;
+            }
+        }
+        .more{
+            h3{
+                font-size: 26px;
+                em{
+                    font-size: 38px;
+                }
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .home {
+        .banner{
+            p{
+                &:nth-child(1){
+                    font-size: 80px;
+                }
+                &:nth-child(2){
+                    font-size: 55px;
+                }
+            }
+        }
+        .about{
+            height: 530px;
+        }
+        .surf{
+            ul li{
+                width: 280px;
+                i{
+                    width: 40px;
+                    height: 40px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+        .advantage,.group{
+            ul li h3{
+                font-size: 32px;
+            }
+        }
+        .advantage{
+            height: 530px;
+            ul li{
+                img{
+                    width: 240px;
+                }
+            }
+        }
+        .group{
+            ul li {
+                img{
+                    width: 300px;
+                }
+                p{
+                    font-size: 26px;
+                }
+            }
+        }
+        .cooperation ul li {
+            h3{
+                font-size: 22px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .connect.media{
+        .connect_l{
+            h2{
+                font-size: 26px;
+            }
+            address,p{
+                font-size: 14px;
+            }
+        }
+    }
+    .about.media{
+        .banner{
+            h2{
+                font-size: 36px;
+            }
+            p{
+                font-size: 20px;
+            }
+            h2,p{
+                width: 640px;
+            }
+        }
+        .more{
+            h3{
+                font-size: 22px;
+                em{
+                    font-size: 34px;
+                }
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 959px){
+    .home {
+        .banner{
+            p{
+                &:nth-child(1){
+                    font-size: 70px;
+                }
+                &:nth-child(2){
+                    font-size: 48px;
+                }
+            }
+        }
+        .about{
+            height: 490px;
+
+        }
+        .surf{
+            ul li{
+                width: 220px;
+                i{
+                    width: 36px;
+                    height: 36px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+        }
+        .advantage,.group{
+            ul li h3{
+                font-size: 28px;
+            }
+        }
+        .advantage{
+            height: 460px;
+            ul li{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+        .group{
+            ul li {
+                img{
+                    width: 240px;
+                }
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .about.media{
+        .banner{
+            h2{
+                font-size: 32px;
+            }
+            p{
+                font-size: 16px;
+            }
+            h2,p{
+                width: 448px;
+            }
+        }
+        .more{
+            h3{
+                font-size: 20px;
+                em{
+                    font-size: 30px;
+                }
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 479px){
+
+}

@@ -1,10 +1,10 @@
 <template>
     <footer class="mz-foot">
         <div>
-            <router-link tag="a" to="/"><img src="/images/static/logo.png" alt="" /></router-link>
+            <a href="javascript:;" @click="to('home')"><img src="/images/static/logo.png" alt="" /></a>
             <ul>
-                <router-link tag="li" to="/about">关于美政</router-link>
-                <router-link tag="li" to="/connect">商务合作</router-link>
+                <li @click="to('about')">关于美正</li>
+                <li @click="to('connect')">商务合作</li>
                 <li><img src="/images/static/erweima.jpg" alt="" /></li>
             </ul>
         </div>
@@ -18,6 +18,12 @@
     export default {
         data(){
             return {}
+        },
+        methods: {
+            to(name){
+                window.scrollTo(0,0);
+                this.$router.push({name});
+            }
         }
     }
 </script>
@@ -35,7 +41,10 @@
                 > a{
                     position: absolute;
                     left: 33px;
-                    top: 60px; 
+                    top: 80px; 
+                }
+                img{
+                    width: 120px;
                 }
                 > ul{
                     display: flex;
