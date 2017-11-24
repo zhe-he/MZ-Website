@@ -101,6 +101,5 @@
     }
     .connect_r{
         flex: 2;
-        height: 733px;
     }
 </style>
