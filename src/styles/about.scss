@@ -34,7 +34,7 @@
 .main{
     width: $mwidth;
     margin: 0 auto;
-    padding-bottom: 68px;
+    margin-bottom: 68px;
     background-color: #fff;
 }
 .road-map,.road-circle{
@@ -52,11 +52,11 @@
     margin-bottom: 50px;
 }
 .more{
-    height: 680px;
     background: url(../../images/banner3.jpg) no-repeat center center;
-    padding: 4px 7.1%;
+    padding: 10px 7.1% 15px;
     box-sizing: border-box;
     h3{
+        opacity: 0;
         padding-top: 0.5em;
         color: #fff;
         font-size: 30px;
@@ -83,7 +83,15 @@
             text-align: right;
         }
     }
+    @for $i from 1 to 8{
+        &.animation > *:nth-child(#{$i}){
+            opacity: 1;
+            animation: fadeInUp 0.6s #{$i*0.6}s ease both;
+        }
+    }
+    
     p{
+        opacity: 0;
         font-size: 18px;
         color: $bbg;
         line-height: 1.6;
@@ -92,18 +100,25 @@
         transition: 0.6s;
     }
 }
+
+@keyframes fadeInUp{
+    0%{opacity:0;
+    transform:translateY(20px)}
+    100%{opacity:1;
+    transform:translateY(0)}
+}
 .end{
     background-color: $fbg;
     text-align: center;
-    padding: 70px 0 50px;
+    padding: 50px 0;
     border-bottom: 1px solid #fff;
     color: #fff;
     h3{
-        font-size: 46px;
-        line-height: 86px;
+        font-size: 38px;
+        line-height: 2;
     }
     p{
-        font-size: 30px;
-        line-height: 65px;
+        font-size: 26px;
+        line-height: 2;
     }
 }

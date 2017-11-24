@@ -127,7 +127,7 @@ class EMap{
                 zlevel: 2,
                 lineStyle: {
                     normal: {
-                        color: '#fdd823',
+                        color: '#fa8100',
                         width: 2,
                         opacity: 0.9,
                         curveness: 0.2
@@ -148,7 +148,7 @@ class EMap{
                 symbolSize: 1,
                 itemStyle: {
                     normal: {
-                        color: '#FFF'
+                        color: '#666666'
                     }
                 },
                 data: this.Data.map( dataItem => {
@@ -203,11 +203,11 @@ class EMap{
                 roam: false,
                 itemStyle: {
                     normal: {
-                        areaColor: '#0d1121',
-                        borderColor: '#369cf4'
+                        areaColor: '#faf7eb',
+                        borderColor: '#ff9964'
                     },
                     emphasis: {
-                        areaColor: '#2a333d'
+                        areaColor: '#efdf9d'
                     }
                 }
             },

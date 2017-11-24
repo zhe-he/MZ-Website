@@ -8,7 +8,7 @@
             </div>
             <div class="about">
                 <h2>关于美正</h2>
-                <p>··········<router-link tag="a" to="/about">更多 >></router-link>··········</p>
+                <p>··········<router-link tag="a" to="/about">更多 &gt;</router-link>··········</p>
                 <ul>
                     <li>
                         <div><p>10</p></div>
@@ -32,7 +32,7 @@
                         <i></i>
                         <div>
                             <p>免费</p>
-                            <p>火车上免费试用无限Wi-Fi</p>    
+                            <p>火车上免费使用无线Wi-Fi</p>    
                         </div>
                     </li>
                     <li>

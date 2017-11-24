@@ -90,12 +90,12 @@
             justify-content: flex-end;
             
             li{
-                width: 122px;
+                width: 100px;
                 height: 80px;
                 line-height: 80px;
                 margin-right: 60px;
                 text-align: center;
-                font-size: 18px;
+                font-size: 16px;
                 color: #fff;
                 cursor: pointer;
                 &:first-child{

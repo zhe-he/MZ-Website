@@ -74,17 +74,17 @@
     }
     .connect_l{
         flex: 1;
-        padding: 47px 30px;
+        padding: 30px;
         > div{
             margin-bottom: 36px;
         }
         h2{
-            font-size: 30px;
+            font-size: 22px;
             color: $color_blue;
             margin-bottom: 12px;
         }
         address,p{
-            font-size: 18px;
+            font-size: 16px;
             color: $color_base;
             line-height: 1.7;
             padding-left: 26px;

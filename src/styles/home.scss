@@ -11,10 +11,10 @@
         text-align: center;
         transition: 0.6s;
         &:nth-child(1){
-            font-size: 110px;
+            font-size: 90px;
         }
         &:nth-child(2){
-            font-size: 80px;
+            font-size: 60px;
         }
     }
 }
@@ -72,7 +72,7 @@
                 background-color: $color_orange;
                 text-align: center;
                 color: #fff;
-                font-size: 50px;
+                font-size: 46px;
             }
             > p{
                 color: $color_base;
@@ -99,7 +99,7 @@
             width: 440px;
             // height: 96px;
             padding: 15px 0;
-            border: 2px solid $line_grey;
+            border: 1px solid $line_grey;
             border-radius: 8px;
             box-sizing: border-box;
             background-color: #fff;
@@ -119,8 +119,8 @@
                 background-size: 90%;
             }
             p{
-                font-size: 18px;
-                line-height: 33px;
+                font-size: 16px;
+                line-height: 1.5;
                 color: $color_black;
                 @include eps;
             }
@@ -175,7 +175,7 @@
                 @include eps;
             }
             h3{
-                font-size: 36px;
+                font-size: 28px;
                 text-align: center;
                 color: #fff;
             }
@@ -196,7 +196,7 @@
 .group{
     margin-bottom: 105px;
     ul li{
-        border: 2px solid $line-light;
+        border: 1px solid $line-light;
         overflow: hidden;
         cursor: pointer;
         > div{
@@ -206,7 +206,7 @@
         }
         p{
             margin-top: 7px;
-            font-size: 30px;
+            font-size: 24px;
         }
         > h3{
             position: absolute;
@@ -284,7 +284,7 @@
             flex: 1;
             padding: 10px;
             margin-right: 20px;
-            border: 2px solid $line_grey2;
+            border: 1px solid $line_grey2;
             justify-content: center;
             align-items: center;
             &:last-child{

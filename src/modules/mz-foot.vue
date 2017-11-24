@@ -52,7 +52,7 @@
                     align-items: center;
                     padding-right: 135px;
                     li{
-                        font-size: 18px;
+                        font-size: 16px;
                         color: #fff;
                         margin-right: 54px;
                         cursor: pointer;
@@ -70,6 +70,7 @@
                     line-height: 40px;
                     text-align: right;
                     color: #fff;
+                    font-size: 12px;
                 }
             }
         }

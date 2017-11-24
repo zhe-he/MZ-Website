@@ -13,7 +13,7 @@
                 <div class="road-map" id="road-map"></div>
                 <div class="road-circle" id="road-circle"></div>
                 
-                <div class="more">
+                <div ref="more" class="more">
                     <h3>连接<em>160+</em>个城市</h3>
                     <p>北京、上海、广州、深圳、杭州、成都、南京、青岛、武汉、济南、哈尔滨、<br/>郑州、呼和浩特、厦门、南宁…</p>
                     <h3>覆盖沿海发达城市<em>90%</em>铁路线路</h3>
@@ -45,6 +45,7 @@
             this.$nextTick(()=>{
                 this.drawCircle();
                 new EMap({id:'road-map',title:'美正普速WiFi覆盖全国十大路局'});
+                this.scroll();
             }); 
         },
         methods: {
@@ -104,6 +105,19 @@
                 window.addEventListener('resize',()=>{
                     circle.resize();
                 },false);
+            },
+            scroll(){
+                var _this = this;
+                window.addEventListener('scroll',fn,false);
+                function fn(){
+                    var t = _this.$refs.more.getBoundingClientRect().top;
+                    var h = _this.$refs.more.offsetHeight;
+                    var H = window.innerHeight;
+                    if(t < Math.min(h,H)){
+                        _this.$refs.more.className = 'more animation';
+                        window.removeEventListener('scroll',fn);
+                    }
+                }
             }
         }
     }
