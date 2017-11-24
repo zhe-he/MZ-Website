@@ -283,15 +283,13 @@
             display: flex;
             flex: 1;
             padding: 10px;
-            margin-right: 20px;
-            border: 1px solid $line_grey2;
             justify-content: center;
             align-items: center;
             &:last-child{
                 margin-right: 0px;
             }
             img{
-                max-width: 90%;
+                width: 100%;
             }
             > a{
                 position: absolute;
