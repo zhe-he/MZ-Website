@@ -30,7 +30,9 @@
         font-size: 16px;
         line-height: 18px;
         text-align: center;
-        letter-spacing: 2px;
+        &.dot{
+            letter-spacing: 6px;
+        }
         &,a{
             color: $color_grey;
         }
@@ -51,12 +53,15 @@
         width: $mwidth;
         margin: 112px auto 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0 8%;
+        box-sizing: border-box;
         align-items: center;
         li{
             width: 160px;
             transition: 0.6s;
             cursor: pointer;
+            
             &:hover{
                 transform: translate3d(0,-20%,0);
             }
@@ -109,6 +114,7 @@
                 transform: scale(1.1)
             }
             i{
+                display: block;
                 width: 66px;
                 height: 66px;
                 border-radius: 50%;

@@ -26,7 +26,7 @@
             </div>
             <div class="surf">
                 <h2>火车上网简单高效</h2>
-                <p>····················</p>
+                <p class="dot">....................</p>
                 <ul>
                     <li>
                         <i></i>
@@ -39,7 +39,7 @@
                         <i></i>
                         <div>
                             <p>体验流畅</p>
-                            <p>连接Wi-Fi到关注一次性完成</p>
+                            <p>连接Wi-Fi到上网一次性完成</p>
                         </div>
                         
                     </li>
@@ -47,7 +47,7 @@
                         <i></i>
                         <div>
                             <p>闭环</p>
-                            <p>车上连接，车上使用</p>
+                            <p>上车连接，车上全程使用</p>
                         </div>
                     </li>
                 </ul>
@@ -55,7 +55,7 @@
             </div>
             <div class="advantage">
                 <h2>场景特点优势</h2>
-                <p>····················</p>
+                <p class="dot">....................</p>
                 <ul>
                     <li v-for="item in advantage">
                         <img :src="item.img" alt="" />
@@ -65,7 +65,7 @@
             </div>
             <div class="group">
                 <h2>产品受众群体精准</h2>
-                <p>····················</p>
+                <p class="dot">....................</p>
                 <ul>
                     <li v-for="item in group">
                         <img :src="item.img" alt="" />
@@ -79,7 +79,7 @@
             </div>
             <div class="cooperation">
                 <h2>多元合作方式</h2>
-                <p>····················</p>
+                <p class="dot">....................</p>
                 <ul>
                     <li v-for="item in cooperation">
                         <img :src="item.img" alt="">
@@ -90,7 +90,7 @@
             </div>
             <div class="connect">
                 <h2>合作客户</h2>
-                <p>····················</p>
+                <p class="dot">....................</p>
 
                 <aside v-for="item in connect">
                     <h4>{{item.title}}</h4>
