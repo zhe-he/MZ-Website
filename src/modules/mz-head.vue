@@ -1,12 +1,16 @@
 <template>
     <header :class="head==1?'media':'mz-head-warp media'">
         <nav v-fixed class="mz-head">
-            <ul>
-                <li @click="to('home')"></li>
-                <li @click="to('home')">首页</li>
-                <li @click="to('connect')">商务合作</li>
-                <li @click="to('about')">关于我们</li>
-            </ul>
+            <div>
+                <a @click="to('home')" href="javascript:;"></a>
+                <ul :class="menuStatus?'active':''">
+                    <li @click="to('home')">首页</li>
+                    <li @click="to('connect')">商务合作</li>
+                    <li @click="to('about')">关于我们</li>
+                </ul>
+                <div class="mz-head-mask"></div>
+                <a :class="menuStatus?'mz-head-close':''" @click="setMenu" href="javascript:;"></a>
+            </div>
         </nav>
     </header>
 </template>
@@ -16,6 +20,7 @@
     export default {
         data(){
             return {
+                menuStatus: false
             }
         },
         computed: mapState(["head"]),
@@ -36,8 +41,12 @@
         },
         methods:{
             to(name){
+                this.menuStatus = false;
                 window.scrollTo(0,0);
                 this.$router.push({name});
+            },
+            setMenu(){
+                this.menuStatus = !this.menuStatus;
             }
         }
     }
@@ -52,10 +61,14 @@
         .mz-head{
             position: relative;
         }
-        .mz-head li{
-            color: $fbg;
-            &:first-child{
-                background-image: url(../../images/static/logo2.png);
+        .mz-head{
+            > div > a{
+               &:first-child{
+                    background-image: url(../../images/static/logo2.png);
+                } 
+            }
+            li{
+                color: $fbg;
             }
         }
     }
@@ -68,6 +81,22 @@
         height: 80px;
         border-bottom: 1px solid transparent;
         transition: 1s;
+        > div{
+            position: relative;
+            width: $mwidth;
+            margin: 0 auto;
+            > a{
+                &:first-child{
+                    position: absolute;
+                    top: 12px;
+                    left: 33px;
+                    width: 120px;      
+                    height: 55px;
+                    background: url(../../images/static/logo.png) no-repeat;
+                    background-size: 100% 100%; 
+                }
+            }
+        }
         &.active{
             position: fixed;
             top: 0;
@@ -76,6 +105,8 @@
             background-color: $bbg;
             ul li{
                 color: $fbg;
+            }
+            >div > a{
                 &:first-child{
                     background-image: url(../../images/static/logo2.png);
                 }
@@ -83,12 +114,8 @@
         }
 
         ul{
-            position: relative;
             display: flex;
-            width: $mwidth;
-            margin: 0 auto;
             justify-content: flex-end;
-            
             li{
                 width: 100px;
                 height: 80px;
@@ -98,15 +125,6 @@
                 font-size: 16px;
                 color: #fff;
                 cursor: pointer;
-                &:first-child{
-                    position: absolute;
-                    top: 12px;
-                    left: 46px;
-                    width: 120px;      
-                    height: 55px;
-                    background: url(../../images/static/logo.png) no-repeat;
-                    background-size: 100% 100%;          
-                }
                 &:last-child{
                     margin-right: 0;
                 }

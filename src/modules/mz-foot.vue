@@ -1,5 +1,5 @@
 <template>
-    <footer class="mz-foot">
+    <footer class="mz-foot media">
         <div>
             <a href="javascript:;" @click="to('home')"><img src="/images/static/logo.png" alt="" /></a>
             <ul>
@@ -50,7 +50,7 @@
                     display: flex;
                     justify-content: flex-end;
                     align-items: center;
-                    padding-right: 135px;
+                    padding-right: 100px;
                     li{
                         font-size: 16px;
                         color: #fff;
@@ -66,11 +66,14 @@
                 background-color: $fbg2;
                 p{
                     width: $mwidth;
+                    margin: 0 auto;
                     height: 40px;
                     line-height: 40px;
                     text-align: right;
                     color: #fff;
                     font-size: 12px;
+                    box-sizing: border-box;
+                    padding-right: 100px;
                 }
             }
         }

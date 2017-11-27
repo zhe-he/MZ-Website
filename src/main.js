@@ -1,3 +1,4 @@
+import FastClick from "fastclick";
 import Vue from 'vue';
 import store from './store';
 import router from './router';
@@ -22,3 +23,7 @@ new Vue({
     store,
     render: h=>h(App)
 });
+
+window.addEventListener('DOMContentLoaded',()=>{
+    FastClick.attach(document.body);
+},false);
