@@ -8,7 +8,8 @@
             </div>
             <div class="about">
                 <h2>关于美正</h2>
-                <p>··········<router-link tag="a" to="/about">更多 &gt;</router-link>··········</p>
+                <p class="dot2">··········<router-link tag="a" to="/about">更多 &gt;</router-link>··········</p>
+                <p class="dot">....................</p>
                 <ul>
                     <li>
                         <div><p>10</p></div>
@@ -23,6 +24,7 @@
                         <p>超过1700+ 车次/日</p>
                     </li>
                 </ul>
+                <a @click="to('about')" href="javascript:;" class="a_c more">查看更多</a>
             </div>
             <div class="surf">
                 <h2>火车上网简单高效</h2>
@@ -51,7 +53,7 @@
                         </div>
                     </li>
                 </ul>
-                <img src="images/static/step.jpg" alt="" />
+                <div class="surf-img"><img src="images/static/step.jpg" alt="" /></div>
             </div>
             <div class="advantage">
                 <h2>场景特点优势</h2>
@@ -95,7 +97,7 @@
                 <aside v-for="item in connect">
                     <h4>{{item.title}}</h4>
                     <ul>
-                        <li v-for="list in item.list">
+                        <li :class="list.mobile_no?'mobile_no':''" v-for="list in item.list">
                             <a :href="list.link"></a>
                             <img :src="list.img" alt="">
                         </li>
@@ -116,6 +118,12 @@
                 group,
                 cooperation,
                 connect
+            }
+        },
+        methods: {
+            to(name){
+                window.scrollTo(0,0);
+                this.$router.push({name});
             }
         }
     }

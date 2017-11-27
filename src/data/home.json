@@ -56,7 +56,8 @@
                 },
                 {
                     "img": "images/static/connect/qumei.png",
-                    "link": "http://www.qumei.com/"
+                    "link": "http://www.qumei.com/",
+                    "mobile_no": true
                 },
                 {
                     "img": "images/static/connect/renrenche.png",
@@ -89,7 +90,8 @@
                 },
                 {
                     "img": "images/static/connect/yimeng.png",
-                    "link": "javascript:;"
+                    "link": "javascript:;",
+                    "mobile_no": true
                 }
             ]
         }

@@ -1,5 +1,6 @@
 @import "./base";
 @media screen and (max-width:1440px){
+    /*对应 home.vue*/
     .home {
         .banner{
             p{
@@ -39,6 +40,7 @@
             }
         }
     }
+    /*对应 about.vue*/
     .connect.media{
         .connect_l{
             h2{
@@ -49,6 +51,7 @@
             }
         }
     }
+    /*对应 about.vue*/
     .about.media{
         .banner{
             h2{
@@ -193,8 +196,8 @@
             ul li{
                 width: 220px;
                 i{
-                    width: 36px;
-                    height: 36px;
+                    width: 33px;
+                    height: 33px;
                 }
                 p{
                     font-size: 12px;
@@ -262,11 +265,14 @@
 }
 
 @media only screen and (max-width: 479px){
+    /*对应 mz-head.vue、mz-foot*/
     .media{
+        $width: 41px;
         .mz-head{
-            height: 41px;
+            height: $width;
             > div{
                 width: 100%;
+                height: $width;
                 > a{
                     z-index: 10;
                     &:first-child{
@@ -302,9 +308,10 @@
                 }
                 li{
                     width: 100%;
-                    height: 45px;
+                    height: 35px;
+                    line-height: 35px;
                     text-align: center;
-                    line-height: 45px;
+                    font-size: 14px;
                 }
             }
             &.active{
@@ -322,13 +329,13 @@
                     top: 0;
                     left: 0;
                     width: 100%;
-                    height: 41px;
+                    height: $width;
                     background-color: $bbg;
                 }
             }
         }
         &.mz-head-warp{
-            height: 41px;
+            height: $width;
             .mz-head{
                 > div > a:last-child{
                     background-image: url(../images/menu.png);
@@ -338,6 +345,252 @@
                 }
                 ul{
                     background-color: $bbg;
+                }
+            }
+        }
+        &.mz-foot{
+            > div:first-child{
+                width: 100%;
+                padding: 16px 0;
+                > a{
+                    left: 10px;
+                    top: 25px;
+                    width: 72px;
+                }
+                img{
+                    width: 54px;
+                }
+                ul{
+                    padding-right: 0;
+                    li{
+                        font-size: 12px;
+                        margin-right: 26px;
+                        &:last-child{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            > div:last-child p{
+                width: 100%;
+                height: 20px;
+                line-height: 20px;
+                font-size: 9px;
+                text-align: center;
+                padding-right: 0;
+            }
+        }
+    }
+
+    .home{
+        .about,.surf,.advantage,.group,.cooperation,.connect{
+            padding-top: 20px;
+            h2{
+                font-size: 16px;
+                line-height: 1.5;
+            }
+            > p.dot{
+                letter-spacing: 1px;
+            }
+        }
+        .banner{
+            height: 340px;
+            background-size: auto 100%;
+            p{
+                &:nth-child(1){
+                    font-size: 30px;
+                }
+                &:nth-child(2){
+                    font-size: 20px;
+                }
+            }
+        }
+        .about{
+            background-image: url(../images/map_m.jpg);
+            background-size: 100%;
+            height: 300px;
+            .dot,.more{
+                display: block;
+            }
+            .dot2{
+                display: none;
+            }
+            .more{
+                width: 80px;
+                height: 25px;
+                line-height: 25px;
+                margin: 30px auto 0;
+                text-align: center;
+                border: 1px solid $color_orange;
+                color: $color_orange;
+                font-size: 12px;
+                border-radius: 3px;
+            }
+            ul{
+                margin-top: 25px;
+                width: 100%;
+                li{
+                    width: 80px;
+                    div{
+                        width: 76px;
+                        height: 76px;
+                        margin-bottom: 21px;
+                        font-size: 24px;
+                    }
+                    > p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .surf{
+            ul{
+                width: 100%;
+                flex-direction: column;
+                margin: 18px auto 16px;
+                li{
+                    width: 85%;
+                    margin-bottom: 9px;
+                    padding: 4px 30px;
+                    justify-content: flex-start;
+                    border-radius: 4px;
+                }
+            }
+            .surf-img{
+                width: 100%;
+                -webkit-overflow-scrolling: touch;
+                overflow-x: auto;
+                overflow-y: hidden;
+                height: 164px;
+                padding: 0 10px 20px;
+                margin-bottom: 18px;
+                box-sizing: border-box;
+                img{
+                    margin: 0 auto;
+                    width: auto;
+                    height: 100%;
+                }
+                &::-webkit-scrollbar{ 
+                    width: 5px;
+                    height: 5px;
+                    border: 1px solid #e8e8e8;
+                    border-radius: 3px;
+                }
+                &::-webkit-scrollbar-thumb{
+                    background-color: #64d174;
+                    border-radius: 3px;
+                }
+            }
+        }
+        .advantage,.group{
+            ul li h3{
+                font-size: 14px;
+            }
+        }
+        .group{
+            margin-bottom: 0;
+            ul{
+                margin: 15px 0 0;
+                width: 100%;
+                flex-direction: column;
+                li{
+                    flex: 1;
+                    display: flex;
+                    flex-direction: row;
+                    border: none;
+                    img{
+                        width: 43%;
+                        height: 110px;
+                    }
+                    > div{
+                        width: 57%;
+                        position: relative;
+                        top: auto;
+                        left: auto;
+                        bottom: auto;
+                        right: auto;
+                        transform: none;
+                    }
+                    > h3{
+                        display: none;
+                    }
+                    p{
+                        margin-top: 3px;
+                        font-size: 12px;
+                    }
+                    &:nth-child(2n){
+                        flex-direction: row-reverse;
+                    }
+                }
+            }
+        }
+        .advantage{
+            height: 197px;
+            background-size: auto 100%;
+            ul{
+                padding: 0 10px;
+                width: 100%;
+                margin-top: 20px;
+                box-sizing: border-box;
+                li{
+                    flex: 1;
+                    width: auto;
+                    margin-right: 10px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .cooperation{
+            background-color: #fff;
+            padding-bottom: 0;
+            ul{
+                width: 100%;
+                margin-top: 10px;
+                flex-direction: column;
+                padding-bottom: 5px;
+                li {
+                    margin-right: 0;
+                    padding: 8px 0;
+                    img{
+                         margin-bottom: 15px;
+                    }
+                    h3{
+                        font-size: 14px;
+                        margin-bottom: 4px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .connect{
+            background-color: $bbg;
+            margin-bottom: 0;
+            padding-bottom: 5px;
+            h4{
+                padding: 13px 0 8px;
+                font-size: 14px;
+            }
+            ul{
+                display: block;
+                width: 100%;
+                overflow: hidden;
+                padding-bottom: 0;
+                li{
+                    float: left;
+                    margin-left: 2.66%;
+                    margin-bottom: 2.66%;
+                    width: 46%;
+                    padding: 0;
+                }
+                .mobile_no{
+                    display: none;
                 }
             }
         }

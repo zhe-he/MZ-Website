@@ -45,6 +45,7 @@
                 }
                 img{
                     width: 120px;
+                    display: block;
                 }
                 > ul{
                     display: flex;
