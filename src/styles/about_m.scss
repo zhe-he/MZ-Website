@@ -1,9 +1,10 @@
 .about.media{
     .banner{
         position: relative;
-        height: 290px;
+        height: 280px;
         background-image: url(../images/banner2_m.jpg);
         background-size: 100%;
+        background-position: center top;
         > div{
             width: 100%;
             justify-content: flex-start;
@@ -40,8 +41,8 @@
 
     .main-mobile{
         display: block;
-        padding: 10px 18px;
-        font-size: 10px;
+        padding: 10px 15px;
+        font-size: 12px;
         line-height: 1.8;
         text-indent: 2em;
         color: #282828;

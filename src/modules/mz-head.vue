@@ -16,11 +16,12 @@
 </template>
 
 <script type="text/javascript">
-    import {mapState} from 'vuex';
+    import {mapState,mapMutations} from 'vuex';
     export default {
         data(){
             return {
-                menuStatus: false
+                menuStatus: false,
+                lastStatus: 0
             }
         },
         computed: mapState(["head"]),
@@ -40,13 +41,25 @@
             }
         },
         methods:{
+            ...mapMutations(["setHead"]),
             to(name){
                 this.menuStatus = false;
                 window.scrollTo(0,0);
                 this.$router.push({name});
             },
             setMenu(){
+                // 每次点击都设置头部为白色背景
+                // 二次点击判断上次是否为透明背景
+                if (!this.menuStatus) {
+                    this.lastStatus = this.head;
+                    this.setHead(2);
+                }else{
+                    if (this.lastStatus == 1) {
+                        this.setHead(1);
+                    }
+                }
                 this.menuStatus = !this.menuStatus;
+
             }
         }
     }
