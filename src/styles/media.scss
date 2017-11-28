@@ -262,12 +262,26 @@
             padding-right: 40px;
         }
     }
+    .about.media{
+        .road-map{
+            margin-top: 0;
+            height: 450px;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        .road-circle{
+            height: 420px;
+            margin-bottom: 0;
+        }
+    }
 }
 
 @media only screen and (max-width: 479px){
     
     @import "./common_m"; // 对应 mz-head.vue、mz-foot
     @import "./home_m";
+    @import "./about_m";
+
     .connect.media{
         .connect-main{
             width: 100%;

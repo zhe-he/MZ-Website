@@ -34,8 +34,13 @@
 .main{
     width: $mwidth;
     margin: 0 auto;
-    margin-bottom: 68px;
-    background-color: #fff;
+    box-sizing: border-box;
+    > div{
+        background-color: #fff;
+    }
+}
+.main-mobile{
+    display: none;
 }
 .road-map,.road-circle{
     width: 66%;
@@ -52,6 +57,8 @@
     margin-bottom: 50px;
 }
 .more{
+    width: $mwidth;
+    margin: 0 auto 68px;
     background: url(../../images/banner3.jpg) no-repeat center center;
     padding: 10px 7.1% 15px;
     box-sizing: border-box;
@@ -88,14 +95,19 @@
             animation: fadeInUp 0.6s #{$i*0.6}s ease both;
         }
     }
+    >div{
+        opacity: 0;
+    }
     
     p{
-        opacity: 0;
         font-size: 18px;
         color: $bbg;
         line-height: 1.6;
+        &:nth-child(2){
+            display: none;
+        }
     }
-    h3,p,h2 em{
+    h3,>div,h2 em{
         transition: 0.6s;
     }
 }
