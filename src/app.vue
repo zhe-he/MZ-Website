@@ -1,6 +1,5 @@
 <template>
     <div>
-        <router-view name="head"></router-view>
         <keep-alive v-if="$route.meta.keepAlive">
             <router-view v-if="$route.meta.keepAlive"></router-view>
         </keep-alive>
