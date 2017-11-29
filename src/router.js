@@ -24,7 +24,7 @@ const routes = [{
     name: 'about',
     component: about,
     meta: {
-        keepAlive: true
+        keepAlive: false
     }
 },{
     path: '*',
