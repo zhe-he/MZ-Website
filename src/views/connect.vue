@@ -5,19 +5,19 @@
             <div class="connect-main">
                 <div class="connect_l">
                     <div>
-                        <h2>公众号商业推广</h2>
-                        <address @click="panTo('gz')">广州市海珠区新港西路大江直街1号邦华—创社第2栋3楼</address>
-                        <p>18617333013 林小姐</p>
-                    </div>
-                    <div>
-                        <h2>商务合作推广</h2>
-                        <address @click="panTo('gz')">广州市海珠区新港西路大江直街1号邦华—创社第2栋3楼</address>
-                        <p>13922124919 杜小姐</p>
-                    </div>
-                    <div>
-                        <h2>美正网络科技有限公司</h2>
-                        <address @click="panTo('bj')">北京市东城区东直门外大街46号天恒大厦A座15层</address>
+                        <h2>美正北京</h2>
+                        <address @click="panTo('bj')">北京市东城区东直门外大街46号天恒大厦A座17层</address>
                         <p>电话：010-84386868</p>
+                    </div>
+                    <div>
+                        <h2>美正上海</h2>
+                        <address @click="panTo('sh')">上海市闸北区天目中路383号1505</address>
+                        <p>电话：021-52832320</p>
+                    </div>
+                    <div>
+                        <h2>美正广州</h2>
+                        <address @click="panTo('gz')">广州市海珠区新港西路大江直街1号邦华—创社第2栋3楼</address>
+                        <p>电话：020-34106066</p>
                     </div>
                 </div>
                 <div class="connect_r" id="mz-map"></div>
@@ -32,7 +32,7 @@
         data(){
             return {
                 map: null,
-                point: {gz:null,bj:null}
+                point: {gz:null,bj:null,sh:null}
             }
         },
         mounted(){
@@ -51,8 +51,10 @@
                 // add marker
                 this.point.gz = new BMap.Point(113.318754, 23.106296);
                 this.point.bj = new BMap.Point(116.443572, 39.946184);
+                this.point.sh = new BMap.Point(121.473884, 31.250921);
                 this.map.addOverlay(new BMap.Marker(this.point.gz)); 
                 this.map.addOverlay(new BMap.Marker(this.point.bj)); 
+                this.map.addOverlay(new BMap.Marker(this.point.sh)); 
             },
             panTo(type){
                this.point[type] && this.map.panTo(this.point[type]);
