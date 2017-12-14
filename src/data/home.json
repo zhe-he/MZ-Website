@@ -73,25 +73,25 @@
             "title": "微信合作客户",
             "list": [
                 {
-                    "img": "images/static/connect/tietu.png",
+                    "img": "images/static/connect/xinhuashe.png",
+                    "link": "javascript:;"
+                },
+                {
+                    "img": "images/static/connect/zhaoshangyinhang.png",
+                    "link": "javascript:;"
+                },
+                {
+                    "img": "images/static/connect/ergeng.png",
                     "link": "javascript:;"
                 },
                 {
                     "img": "images/static/connect/lvyou.png",
-                    "link": "javascript:;"
-                },
-                {
-                    "img": "images/static/connect/shijue.png",
-                    "link": "javascript:;"
-                },
-                {
-                    "img": "images/static/connect/yuer.png",
-                    "link": "javascript:;"
-                },
-                {
-                    "img": "images/static/connect/yimeng.png",
                     "link": "javascript:;",
                     "mobile_no": true
+                },
+                {
+                    "img": "images/static/connect/xinhuawang.png",
+                    "link": "javascript:;"
                 }
             ]
         }
