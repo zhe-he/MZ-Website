@@ -96,9 +96,9 @@
 
                 <aside v-for="item in connect">
                     <h4>{{item.title}}</h4>
-                    <ul>
+                    <ul :class="['clearfix',item.styleClass]">
                         <li :class="list.mobile_no?'mobile_no':''" v-for="list in item.list">
-                            <a :href="list.link"></a>
+                            <!--<a :href="list.link"></a>-->
                             <img :src="list.img" alt="">
                         </li>
                     </ul>

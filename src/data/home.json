@@ -45,32 +45,61 @@
     "connect":[
         {
             "title": "广告合作客户",
+            "styleClass":"ul-width",
             "list": [
                 {
-                    "img": "images/static/connect/liantong.png",
+                    "img": "images/static/connect/1@2x.png",
                     "link": "http://www.10010.com/"
                 },
                 {
-                    "img": "images/static/connect/qunaer.png",
+                    "img": "images/static/connect/2@2x.png",
                     "link": "https://www.qunar.com/"
                 },
                 {
-                    "img": "images/static/connect/qumei.png",
-                    "link": "http://www.qumei.com/",
-                    "mobile_no": true
+                    "img": "images/static/connect/3@2x.png",
+                    "link": "http://www.qumei.com/"
                 },
                 {
-                    "img": "images/static/connect/renrenche.png",
+                    "img": "images/static/connect/4@2x.png",
                     "link": "https://www.renrenche.com"
                 },
                 {
-                    "img": "images/static/connect/58.png",
+                    "img": "images/static/connect/5@2x.png",
                     "link": "http://58.com"
+                },
+                {
+                    "img": "images/static/connect/6@2x.png",
+                    "link": ""
+                },
+                {
+                    "img": "images/static/connect/7@2x.png",
+                    "link": ""
+                },
+                {
+                    "img": "images/static/connect/8@2x.png",
+                    "link": ""
+                },
+                {
+                    "img": "images/static/connect/9@2x.png",
+                    "link": ""
+                },
+                {
+                    "img": "images/static/connect/10@2x.png",
+                    "link": ""
+                },
+                {
+                    "img": "images/static/connect/11@2x.png",
+                    "link": ""
+                },
+                {
+                    "img": "images/static/connect/12@2x.png",
+                    "link": ""
                 }
             ]
         },
         {
             "title": "微信合作客户",
+            "styleClass":"ul-flex",
             "list": [
                 {
                     "img": "images/static/connect/xinhuashe.png",

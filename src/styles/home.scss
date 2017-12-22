@@ -280,15 +280,15 @@
         color: $color_black;
     }
     ul{
-        display: flex;
+        //display: flex;
         margin: 0 auto;
         padding-bottom: 30px;
         width: $mwidth;
-        justify-content: space-between;
+        //justify-content: space-between;
         li{
             position: relative;
             display: flex;
-            flex: 1;
+            //flex: 1;
             padding: 10px;
             justify-content: center;
             align-items: center;
@@ -304,6 +304,20 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
+            }
+        }
+        &.ul-width{
+            li{
+                width: 16.6%;
+                float: left;
+                box-sizing: border-box;
+            }
+        }
+        &.ul-flex{
+            display: flex;
+            justify-content: space-between;
+            li{
+                flex: 1;
             }
         }
     }

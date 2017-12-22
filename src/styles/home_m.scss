@@ -195,7 +195,7 @@
             font-size: 14px;
         }
         ul{
-            display: block;
+            display: block !important;
             width: 100%;
             overflow: hidden;
             padding-bottom: 0;
@@ -208,6 +208,15 @@
             }
             .mobile_no{
                 display: none;
+            }
+            &.ul-width{
+                padding: 0 1.33%;
+                box-sizing: border-box;
+                li{
+                    width: 33.3%;
+                    margin-left: 0 !important;
+                    padding: 0 1.33%;
+                }
             }
         }
     }
