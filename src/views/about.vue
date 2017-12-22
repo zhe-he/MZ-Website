@@ -142,6 +142,7 @@
                 var _this = this;
                 window.addEventListener('scroll',fn,false);
                 function fn(){
+                    if(!_this.$refs.more){ return false;}
                     var t = _this.$refs.more.getBoundingClientRect().top;
                     var h = _this.$refs.more.offsetHeight;
                     var H = window.innerHeight;
