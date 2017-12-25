@@ -5,12 +5,12 @@
             <div class="connect-main">
                 <div class="connect_l">
                     <div>
-                        <h2>美正北京总部</h2>
+                        <h2>美正北京</h2>
                         <address @click="panTo('bj')">北京市东城区东直门外大街46号天恒大厦A座17层</address>
                         <p>电话：010-84386868</p>
                     </div>
                     <div>
-                        <h2>美正上海总部</h2>
+                        <h2>美正上海</h2>
                         <address @click="panTo('sh')">上海市闸北区天目中路383号1505</address>
                         <p>电话：021-52832320</p>
                     </div>
