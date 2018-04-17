@@ -221,3 +221,15 @@
         }
     }
 }
+.select-overlay h3{
+    font-size: 20px !important;
+}
+.select-overlay h3::after{
+    bottom: 12px !important; 
+    width: 150px !important; 
+    margin-left: -75px !important; 
+}
+.select-overlay .content{
+    padding: 5px !important;
+    font-size: 12px !important;
+}

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="106797d9-aea8-4d65-b4be-8a27ec69ba61" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/connect.vue" afterPath="$PROJECT_DIR$/src/views/connect.vue" />
     </list>
     <ignored path="MZ-Website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/home.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/home.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,14 +36,14 @@
       <file leaf-file-name="about.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/about.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2831">
+            <state relative-caret-position="2755">
               <caret line="146" column="37" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connect.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/connect.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -64,41 +53,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/about.scss">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="171">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/home.scss">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6080">
-              <caret line="320" column="13" selection-start-line="320" selection-start-column="13" selection-end-line="320" selection-end-column="13" />
+            <state relative-caret-position="38">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/media.scss">
+      <file leaf-file-name="publicServer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/publicServer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3192">
-              <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/reset.scss">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="472">
+              <caret line="72" column="7" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -192,7 +181,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,108 +195,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MZ-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="connect" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,17 +286,21 @@
       <workItem from="1513241799219" duration="2064000" />
       <workItem from="1513930525663" duration="8445000" />
       <workItem from="1514167320550" duration="21000" />
+      <workItem from="1516866938409" duration="101000" />
+      <workItem from="1516960803378" duration="1099000" />
+      <workItem from="1517210486285" duration="1215000" />
+      <workItem from="1517475173242" duration="529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10842000" />
+    <option name="totallyTimeSpent" value="13786000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -428,52 +327,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/home.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/train_xl.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/city.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/inter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -485,9 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,9 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,7 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="199" column="29" selection-start-line="199" selection-start-column="29" selection-end-line="199" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="320" column="13" selection-start-line="320" selection-start-column="13" selection-end-line="320" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,9 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,21 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postcss.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -741,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6080">
           <caret line="320" column="13" selection-start-line="320" selection-start-column="13" selection-end-line="320" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,15 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3192">
           <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="199" column="29" selection-start-line="199" selection-start-column="29" selection-end-line="199" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,11 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/about.vue">
+    <entry file="file://$PROJECT_DIR$/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2831">
-          <caret line="146" column="37" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -819,6 +624,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2986">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/clean.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/pack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/about.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="146" column="37" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/publicServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding />
         </state>
       </provider>
