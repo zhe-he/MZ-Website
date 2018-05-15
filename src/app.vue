@@ -1,5 +1,8 @@
 <template>
     <div>
+        <!-- seo default img start -->
+        <img src="images/static/logo2.png" style="z-index:-1;opacity:0;position:absolute;top:0;left:0" />
+        <!-- seo default img end -->
         <keep-alive v-if="$route.meta.keepAlive">
             <router-view v-if="$route.meta.keepAlive"></router-view>
         </keep-alive>
