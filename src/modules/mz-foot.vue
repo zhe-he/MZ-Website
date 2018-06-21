@@ -9,7 +9,7 @@
             </ul>
         </div>
         <div>
-            <p>copyright 2017 广州美正在线网络科技有限公司 粤ICP备13048187号</p>
+            <p>copyright 2017 广州美正在线网络科技有限公司 <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备13048187号</a></p>
         </div>
     </footer>
 </template>
@@ -75,6 +75,9 @@
                     font-size: 12px;
                     box-sizing: border-box;
                     padding-right: 100px;
+                    a{
+                        color: #fff;
+                    }
                 }
             }
         }

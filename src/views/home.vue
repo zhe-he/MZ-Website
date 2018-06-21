@@ -109,7 +109,7 @@
          <!-- 声明 -->
          <div class="select-overlay" v-show="isShowSm">
           <div class="content">
-            <a href="javascript:;" class="close-sm" @click="isShowSm = false">关闭 X</a>
+            <a href="javascript:;" class="close-sm" @click="close">关闭 X</a>
             <h3><span>严正声明</span></h3>
             <p>
                 <span class="orange">“往返WiFi”</span>业务为航美在线网络科技集团有限公司旗下广州美正在线网络科技有限公司（以下简称“我司”）所有，其知识产权及相关权利均属于我司。关于近期市场上出现的销售铁路局往返WiFi资源的情况，我公司严正声明如下：<br />
@@ -128,6 +128,7 @@
 
 <script type="text/javascript">
     import { advantage,group,cooperation,connect } from "../data/home";
+    const isShowSm = !window.sessionStorage.getItem('mz_sm');
     export default {
         data(){
             return {
@@ -135,13 +136,17 @@
                 group,
                 cooperation,
                 connect,
-                isShowSm:true
+                isShowSm
             }
         },
         methods: {
             to(name){
                 window.scrollTo(0,0);
                 this.$router.push({name});
+            },
+            close() {
+                window.sessionStorage.setItem('mz_sm',1);
+                this.isShowSm = false;
             }
         }
     }

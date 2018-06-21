@@ -7,8 +7,7 @@ const webpackBase = require("./index");
 var cfg = Object.assign(webpackBase, {
     devtool: "cheap-module-eval-source-map"
 });
-
-const port = process.argv[2]?process.argv[2].replace('--',''):4010;
+const port = 4010;
 const app = express();
 
 cfg.plugins = (webpackBase.plugins || []).concat(
