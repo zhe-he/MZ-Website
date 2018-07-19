@@ -11,11 +11,20 @@
         text-align: center;
         transition: 0.6s;
         &:nth-child(1){
+            padding-top: 90px;
             font-size: 90px;
         }
         &:nth-child(2){
             font-size: 60px;
         }
+    }
+    > a{
+        display: block;
+        width: 172px;
+        height: 193px;
+        margin: 20px auto 0;
+        background: url(../../images/to_service_platform.png) no-repeat center center;
+        background-size: 100% 100%;
     }
 }
 .about,.surf,.advantage,.group,.cooperation,.connect{

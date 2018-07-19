@@ -5,6 +5,7 @@
             <div class="banner">
                 <p>中国最大的</p>
                 <p>铁路客运出行娱乐平台</p>
+                <a class="a_c" target="_blank" href="https://sscp.ihangmei.com/"></a>
             </div>
             <div class="about">
                 <h2>关于美正</h2>
